@@ -1,0 +1,46 @@
+.container {
+  text-align: center;
+  margin: 20px;
+}
+
+.map {
+  border: 1px solid #000;
+}
+
+.selected {
+  transform: scale(1.2); /* Scale it up when selected */
+  transition: transform 0.3s ease; /* Add a smooth transition effect */
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  padding: 5rem 0;
+  text-align: center;
+}
+
+.title {
+  font-size: 2rem;
+}
+
+.mapContainer {
+  border: 1px solid #000;
+  overflow: hidden;
+  width: 800px;
+  height: 400px;
+}
+
+.map {
+  width: 100%;
+  height: 100%;
+}
+
+.selected {
+  fill: red;
+}
